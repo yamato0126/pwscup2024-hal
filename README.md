@@ -8,8 +8,8 @@
 ディレクトリ構成は以下の通りです.
 ```
 ├── anonymize/ :匿名化フェーズ
-│   ├── anonymize_main.py :本戦の攻撃プログラム
-│   ├── anonymize_pre.py :予備戦の攻撃プログラム
+│   ├── anonymize_main.py :本戦の匿名化プログラム
+│   ├── anonymize_pre.py :予備戦の匿名化プログラム
 │   └── calc_cramersV.ipynb :クラメールの連関係数を計算するプログラム
 └── attack/ :攻撃フェーズ
     ├── modeSimpleAttack.py :シンプルな最頻値攻撃プログラム
